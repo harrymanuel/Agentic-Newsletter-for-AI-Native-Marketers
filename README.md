@@ -1,7 +1,3 @@
-# Marketing Automations
-
-Automations I've built in Make.com. Each folder contains the exported blueprint, which you can import straight into any Make account and inspect module by module.
-
 ## AI Newsletter Digest
 
 **Gmail → Claude → Slack**
@@ -15,3 +11,6 @@ The result lands in a private Slack channel as a short daily digest. Reading tim
 **Stack:** Make.com, Gmail API, Anthropic Claude (Haiku, because the task doesn't need a bigger model and cheaper runs matter when it fires daily), Slack API.
 
 **To run it yourself:** import `blueprint.json` into Make, connect your own Gmail and Slack accounts, and swap in your own interests in the Claude prompt.
+
+<img width="1922" height="680" alt="image" src="https://github.com/user-attachments/assets/b7f4eaa3-931c-44aa-b36e-0d4917fca934" />
+
